@@ -239,13 +239,12 @@ li:hover .submenu
     
     .icon-menu
     {       
-        display: flex;
-        justify-content: space-around;
-       /* padding: 10px 10px 10px 10px; */
+        
+        padding: 10px 10px 10px 10px; 
         transition: all 500ms ease;
         position: absolute;
         top:155px ;
-        left:100% ;                
+        left:10px ;              
         background: #df0808;
         font-size: 35px;        
         color: #10aed6;
@@ -253,9 +252,9 @@ li:hover .submenu
     }   
     .btn
     {
-        position: absolute;
+        /*position: absolute;
         top: 30px;
-        left: 100%;
+        right:100%;*/
         text-align: right;
         visibility: visible;    
         display:block; 
