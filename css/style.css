@@ -243,14 +243,15 @@ li:hover .submenu
                 
     } */
     .icon-menu
-    {             
-        padding: 30px 30px 30px 30px; 
-        /*transition: all 500ms ease;*/
+    {     
+                
+        padding: 0px 0px 0px 0px; 
+       /* transition: all 500ms ease;*/
         position: absolute;
-        top:280px ;
-        left:1px ;              
-        background: #000000;
-        font-size: 50px;        
+        top:308px ;
+        left:0px ;              
+        background: #00000000;
+        font-size: 85px;        
         color: #10aed6;
         border-radius: 10%;
     }   
