@@ -212,7 +212,7 @@ li:hover .submenu
         position: relative;
         top:0% ;
         left: 10%;     
-        padding: 20px 356.6px 68px 356.6px;         
+        padding: 20px 356.6px 100px 356.6px;         
         background: rgb(0, 0, 0);        
     }
     .logo img
@@ -233,19 +233,18 @@ li:hover .submenu
     {
         display: none;        
     }
-    div label, .icon-menu  
+    /*div label, .icon-menu  
     {       
         position:relative;
-        top: 55%;
+        top: 510%;
         left: 10%;        
-    }   
+    }   */
     .icon-menu
-    {       
-        
+    {             
         padding: 10px 10px 10px 10px; 
         transition: all 500ms ease;
         position: absolute;
-        top:155px ;
+        top:190px ;
         left:10px ;              
         background: #df0808;
         font-size: 35px;        
