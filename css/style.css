@@ -196,6 +196,8 @@ li:hover .submenu
     }
     title
     {
+        position: absolute;
+        top: 0px;
         visibility: hidden;
     }
     .navegation
@@ -205,11 +207,11 @@ li:hover .submenu
         margin: 0px 0% 5% 0px;
     }
     .logo 
-    {      
+    {         
         position: relative;
-        right:10% ;
+        top:0% ;
         left: 10%;     
-        padding: 0px 10px 85px 0px;  
+        padding: 20px 356.6px 68px 356.6px; 
         text-align: center;                    
         background: rgb(0, 0, 0);        
     }
