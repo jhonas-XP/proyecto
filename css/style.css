@@ -262,12 +262,11 @@ li:hover .submenu
     }
     .meno1
     {
+        padding: 20px 529.8px 68px 529.8px;
         position: relative;
-        top:0% ;
-        left: 10%; 
-        list-style: none;         
-        padding: 20px 356.6px 68px 356.6px;
-        
+        top:213px ;
+        left: 0%; 
+        list-style: none;                
         color: rgb(0, 0, 0);   
         background:rgb(255, 255, 255) ;
         border: 3px groove #000; 
