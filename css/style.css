@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *
 {    
+    
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
@@ -38,7 +40,7 @@ li > a
     text-align: center;
     text-decoration: none;
     padding: 10px 10px 10px 10px;
-    
+    font-family: 'Noto Serif', serif;
 }
 /*con esta clase dentro de la lista controlamos la posicion en la que se ven la letras si en bloque o en linea*/
 .menu > li
@@ -67,7 +69,8 @@ li > a
 {
     display: block;   
     padding: 15px 0px 0px 0px;
-    color: rgb(0, 0, 0);    
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif', serif;   
 }
 /*con este comando controlamos que el submenu desplegable sea visible y se vea claro*/
 li:hover .submenu
@@ -125,6 +128,7 @@ li:hover .submenu
         color:#fdfdfd;        
         text-align: center;
         text-decoration: none;
+        font-family: 'Noto Serif', serif;
     }
     .menu
     {
@@ -288,6 +292,7 @@ li:hover .submenu
         padding: 15px 15px 1px 15px;
         color: rgb(0, 0, 0);
         text-align: center;
+        font-family: 'Noto Serif', serif;
     }
     li:hover .meno1
     {
