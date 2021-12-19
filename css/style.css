@@ -38,6 +38,7 @@ li > a
     text-align: center;
     text-decoration: none;
     padding: 10px 10px 10px 10px;
+    
 }
 /*con esta clase dentro de la lista controlamos la posicion en la que se ven la letras si en bloque o en linea*/
 .menu > li
@@ -265,7 +266,7 @@ li:hover .submenu
     }
     .meno1
     {
-        padding: 20px 529.8px 68px 529.8px;
+        padding: 20px 628.8px 68px 628.8px;
         position: relative;
         top:353px ;
         left: 0%; 
