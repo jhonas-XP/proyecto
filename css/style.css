@@ -187,7 +187,10 @@ li:hover .submenu
         margin: 0px 0% 5% 0px;
     }
     .logo 
-    {           
+    {      
+        position: relative;
+        right:10px ;
+        left: 50%;     
         padding: 0px 10px 85px 0px;  
         text-align: center;                    
         background: rgb(0, 0, 0);        
@@ -202,41 +205,14 @@ li:hover .submenu
     }
     #btn
     {
-        display: none;
-        
+        display: none;        
     }
     div label, .icon-menu  
-    {
-        
+    {       
         position:relative;
         top: 55%;
         left: 10%;        
-    }    
-    /*.submenu
-    {
-        list-style: none;
-        position: absolute; 
-        color: rgb(0, 0, 0);   
-        background:rgb(255, 255, 255) ;
-        border: 3px groove #000;          
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.5s;
-    }
-    .submenu li a 
-    {
-        display: block;
-        width: 100%;
-        padding: 15px 15px 1px 0px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-    }
-    li:hover .submenu
-    {
-        visibility: visible;
-        opacity: 1;
-    } */
-    
+    }   
     .icon-menu
     {       
         
@@ -255,18 +231,17 @@ li:hover .submenu
         /*position: absolute;
         top: 30px;
         right:100%;*/
-        text-align: right;
+        text-align: left;
         visibility: visible;    
-        display:block; 
-        text-align: right;
+        display:block;         
     }
     .meno1
     {
-        list-style: none;
-        position: absolute; 
-        padding: 0px 318.9px 10px 319px;
+        list-style: none;         
+        padding: 20px 356.6px 25px 356.6px;
+        position: relative;
         top: 181px;
-        left:0px ;
+        left:0% ;
         color: rgb(0, 0, 0);   
         background:rgb(255, 255, 255) ;
         border: 3px groove #000; 
